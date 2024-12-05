@@ -1,0 +1,85 @@
+*{
+    margin:0;
+    padding:0;
+}
+.box{
+    margin: 30px auto;
+    display:flex;
+    flex-wrap:wrap;
+    gap:30px;
+}
+.n{
+    Width:200px;
+    height: 231px;
+    border-radius:10px;
+    overflow: hidden;
+    transition: 1s;
+}
+img{
+    width: 200px;
+    height: 200px;
+    transition: 1s;
+    border-radius:50%;
+}
+.numberOutline{
+    width: 32px;
+    height: 32px;
+    margin:-120px 0 0 158px;
+    background:white;
+    position:absolute;
+    border-radius:50%;
+}
+.number{
+    font-family: arial;
+    font-size:16px;
+    line-height: 18.4px;
+    text-align:center;
+    color:#8B0000;
+    margin-top: 6.8px;
+}
+.name{
+    font-family: arial;
+    font-size:20px;
+    line-height: 23px;
+    text-align:center;
+    color:#2F4F4F;
+    margin-top:8px;
+}
+.netWorth{
+    font-family: arial;
+    font-size:18px;
+    line-height: 20.7px;
+    text-align:center;
+    color:#2F4F4F;
+    margin-top:9px;
+}
+.n:hover{
+    background: #EEEEEE;
+    height:287px;
+}
+.n:hover img{
+    border-radius: 60px;;
+}@media screen and (min-width: 500px) {
+    .box{
+        Width:430px;
+        height:1320px;
+    }
+}
+@media screen and (min-width: 750px) {
+    .box{
+        Width:430px;
+        height:1320px;
+    }
+}
+@media screen and (min-width: 1000px) {
+    .box{
+        Width:890px;
+        height:780px;
+    }
+}
+@media screen and (min-width: 1500px) {
+    .box{
+        Width:890px;
+        height:780px;
+    }
+}
